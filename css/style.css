@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: avenir_ff;
+  background-color: rgba(250, 207, 213, 0.9921568627);
+}
+
+/*     navbar     */
+section nav div a img {
+  display: flex;
+  width: 40%;
+  box-sizing: border-box;
+  border-radius: 50%;
+  align-items: center;
+  /*outline: 1px solid black;*/
+}
+section nav div a img:hover {
+  opacity: 0.2;
+  transition: all 2s;
+}
+section nav div a div ul li {
+  font-family: avenir_ff;
+  color: #146d4e;
+}
+
+/*    Indice    */
+div {
+  color: #146d4e;
+}
+div div h1:hover {
+  animation: movement 4s;
+}
+@keyframes movement {
+  0% {
+    opacity: 0.2;
+    transition: all;
+  }
+  25% {
+    transform: translateY(-20px);
+    transition: all;
+  }
+  50% {
+    font-size: 19px;
+    transition: all;
+  }
+}
+
+/*    contactos    */
+section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./imagenes/fondo2.png);
+  background-position: center;
+  background-attachment: contain;
+  background-size: cover;
+  box-sizing: border-box;
+  font-family: avenir_ff;
+}
+section h3 {
+  font-size: 30px;
+  color: #146d4e;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+section p {
+  color: #146d4e;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+section i {
+  color: #146d4e;
+  font-size: 60px;
+  padding-top: 20px;
+}
+section p {
+  color: #146d4e;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  font-size: 20px;
+}
+section div {
+  color: #146d4e;
+  font-size: 40px;
+}
+
+/*    footer  */
+footer div div img {
+  display: flex;
+  box-sizing: border-box;
+  border-radius: 50%;
+  width: 90%;
+}
+footer div div p {
+  color: #146d4e;
+  font-size: 40px;
+}
+footer div div i {
+  color: #146d4e;
+  font-size: 40px;
+  padding: 10px;
+}
+footer div div p {
+  color: #146d4e;
+  font-size: 40px;
+}
+
+/*# sourceMappingURL=style.css.map */
